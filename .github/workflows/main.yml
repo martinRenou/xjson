@@ -35,7 +35,7 @@ jobs:
         channels: conda-forge
 
     - name: Install dependencies
-      run: mamba install pytest pip
+      run: mamba install pybind11 nlohmann_json pybind11_json pytest pip
 
     - name: Build package
       run: |
